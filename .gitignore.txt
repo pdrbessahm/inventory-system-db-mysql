@@ -1,0 +1,24 @@
+# Arquivos compilados
+*.class
+
+# Logs e temporários
+*.log
+*.tmp
+*.bak
+
+# Diretórios de saída
+bin/
+out/
+
+# Configurações locais
+.vscode/
+
+# Arquivos do MySQL Workbench (caso use)
+*.mwb
+
+# Arquivos de ambiente sensíveis
+.env
+*.properties
+
+# Arquivos de conexão sensível
+src/Database.java
