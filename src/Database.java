@@ -6,7 +6,7 @@ public class Database {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/inventory_db";
         String user = "root";
-        String password = "MySecureDB4#";
+        String password = "";
 
         try(Connection conn = DriverManager.getConnection(url, user, password)) {
             System.out.println("✅ Conexão bem-sucedida com o banco de dados!");
