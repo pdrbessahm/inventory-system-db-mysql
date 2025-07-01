@@ -1,3 +1,5 @@
+//Representar o objeto produto (modelo).
+
 public class Products {
     
     //atributes
